@@ -94,6 +94,7 @@ map
 
 distance_matrix <- if(interactive()) fun()
 ############################
+#not changing anything
 
 #-73.98   -73.929224     -73.947
 #40.759    40.75478     40.808
