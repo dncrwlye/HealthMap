@@ -12,7 +12,7 @@ library(RSocrata)
 
 #Farmers_Markets <- read.socrata("https://data.ny.gov/resource/7jkw-gj56.json")
 #read.socrata isn't working 
-
+#changing this okay okay okay
 gps_cleaner=function(data)
 {
   mutate(data, Longitude=as.numeric(stri_extract_first_regex(the_geom, "-[0-9][0-9].[0-9]+"))) %>%
